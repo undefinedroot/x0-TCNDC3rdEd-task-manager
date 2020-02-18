@@ -1,0 +1,17 @@
+postman;
+
+Authorization: no-auth
+---if it does not need any Auth tokens,
+else, go to the folder collection
+and setup the token which all
+request will inherit to
+
+
+Environment:
+{{name of varible}}
+
+
+Tests:
+where you setup script to get
+the new tokens generated which
+the whole script collection will use.
